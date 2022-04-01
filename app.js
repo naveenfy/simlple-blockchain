@@ -30,6 +30,7 @@ class blockchain{
         this.chain.push(newBlock);
     }
 }
+//small change to show how git clone works to students
 let naveenkoin = new blockchain();
 naveenkoin.addBlock(new Block(1,"10/07/2017",{amount:4}));
 naveenkoin.addBlock(new Block(2,"15/10/2017",{amount:10}));
